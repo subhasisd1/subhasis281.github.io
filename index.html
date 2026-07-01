@@ -1,1 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subhasis Pattanaik — Senior Software Engineer</title>
+  <meta name="description" content="Subhasis Pattanaik — Senior Software Engineer specialising in .NET, React, Angular, Azure and microservices architecture. Portfolio of enterprise, healthcare and cloud-native projects." />
+  <meta name="author" content="Subhasis Pattanaik" />
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Subhasis Pattanaik — Senior Software Engineer" />
+  <meta property="og:description" content="Senior Software Engineer specialising in .NET, React, Angular and Azure. Portfolio of enterprise, healthcare and cloud-native projects." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="%230b1f3a"/><text x="50" y="68" font-size="54" font-family="monospace" font-weight="700" fill="%2338bdf8" text-anchor="middle">SP</text></svg>' />
+</head>
+<body>
+  <!-- Blueprint grid backdrop -->
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="Subhasis Pattanaik — home">
+        <span class="brand__mark">SP</span>
+        <span class="brand__name">Subhasis&nbsp;Pattanaik</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle colour theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.5" y1="4.5" x2="6.5" y2="6.5"/><line x1="17.5" y1="17.5" x2="19.5" y2="19.5"/><line x1="4.5" y1="19.5" x2="6.5" y2="17.5"/><line x1="17.5" y1="6.5" x2="19.5" y2="4.5"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="currentColor"/></svg>
+        </button>
+        <a class="btn btn--sm" href="assets/SubhasisPattanaik_Resume.pdf" download>Resume</a>
+        <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+       <div class="hero__copy">
+        <p class="hero__eyebrow reveal"><span class="dot"></span> Available for Software Engineering roles</p>
+        <h1 class="hero__title reveal">
+          <span>Subhasis</span>
+          <span class="accent">Pattanaik</span>
+        </h1>
+        <p class="hero__role reveal"><span class="mono">&lt;/&gt;</span> Senior Software Engineer — Full-Stack &amp; Cloud</p>
+        <p class="hero__lead reveal">
+          I build enterprise-grade, cloud-native applications end to end — turning
+          requirements into scalable <strong>.NET</strong>, <strong>React</strong> and
+          <strong>Angular</strong> systems, backed by Azure infrastructure and
+          microservices architecture for business-critical delivery.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--primary" href="#projects">View Projects</a>
+          <a class="btn btn--ghost" href="assets/SubhasisPattanaik_Resume.pdf" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 3v10.5l3.5-3.5 1.4 1.4L12 16.3 6.1 11.4l1.4-1.4L11 13.5V3h1Zm-7 15h14v2H5v-2Z"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <ul class="hero__stats reveal" aria-label="Highlights">
+          <li><span class="num" data-count="6">0</span><span class="lbl">Years in software engineering</span></li>
+          <li><span class="num" data-count="3">0</span><span class="lbl">Companies</span></li>
+          <li><span class="num" data-count="5" data-suffix="+">0</span><span class="lbl">Core tech domains</span></li>
+        </ul>
+       </div>
+
+       <div class="hero__photo reveal">
+         <div class="hero__frame">
+           <img src="assets/profile.jpg"
+                alt="Subhasis Pattanaik"
+                width="640" height="760"
+                onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';" />
+           <span class="hero__frame-tick hero__frame-tick--tl"></span>
+           <span class="hero__frame-tick hero__frame-tick--br"></span>
+         </div>
+         <span class="hero__badge mono">Full-Stack · .NET</span>
+       </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">01</span>
+          <h2>About</h2>
+        </header>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              I'm a <strong>results-driven Software Engineer</strong> with 6+ years of experience
+              building full-stack applications across .NET, React, Angular, SQL Server and Azure.
+              My work spans requirement gathering, architecture design, and hands-on development
+              through to deployment and production support — with a strong focus on scalable,
+              maintainable system design grounded in solid DSA and OOP fundamentals.
+            </p>
+            <p>
+              I've delivered everything from enterprise banking platforms to state-level government
+              healthcare systems, and more recently I've been building
+              <strong>AI-powered document processing and data-extraction workflows</strong> using
+              Azure OpenAI and LLMs to improve operational efficiency. I'm comfortable owning a
+              project end to end — from greenfield architecture to CI/CD automation on Azure DevOps.
+            </p>
+          </div>
+          <aside class="about__card reveal">
+            <h3>At a glance</h3>
+            <dl>
+              <div><dt>Role</dt><dd>Senior Software Engineer — Full-Stack &amp; Cloud</dd></div>
+              <div><dt>Based in</dt><dd>Bangalore, India</dd></div>
+              <div><dt>Focus</dt><dd>.NET · React/Angular · Azure Cloud</dd></div>
+              <div><dt>Degree</dt><dd>B.Sc. Computer Science</dd></div>
+              <div><dt>Languages</dt><dd>EN · HI · OR</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section--alt">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">02</span>
+          <h2>Skills &amp; Tools</h2>
+        </header>
+        <div class="skills">
+          <article class="skillcard reveal">
+            <h3>Languages &amp; Frameworks</h3>
+            <ul class="chips">
+              <li>C#</li>
+              <li>ASP.NET Core</li>
+              <li>React.js</li>
+              <li>Angular</li>
+              <li>C++</li>
+              <li>Blazor</li>
+            </ul>
+          </article>
+          <article class="skillcard reveal">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul class="chips">
+              <li>Azure App Services</li>
+              <li>Azure Functions</li>
+              <li>Azure DevOps</li>
+              <li>Docker</li>
+              <li>CI/CD Pipelines</li>
+              <li>Microservices</li>
+            </ul>
+          </article>
+          <article class="skillcard reveal">
+            <h3>AI &amp; Data</h3>
+            <ul class="chips">
+              <li>Azure OpenAI</li>
+              <li>LLM</li>
+              <li>NLP</li>
+              <li>AI-Powered Document Processing</li>
+            </ul>
+          </article>
+          <article class="skillcard reveal">
+            <h3>Databases &amp; Practices</h3>
+            <ul class="chips">
+              <li>SQL Server</li>
+              <li>RESTful APIs / Web API</li>
+              <li>Data Structures &amp; Algorithms</li>
+              <li>SOLID Principles</li>
+              <li>Design Patterns</li>
+              <li>Unit Testing</li>
+              <li>System Design</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">03</span>
+          <h2>Experience</h2>
+        </header>
+        <div class="timeline">
+
+          <article class="tl reveal">
+            <div class="tl__dot"></div>
+            <div class="tl__body">
+              <div class="tl__top">
+                <h3>Senior Software Developer</h3>
+                <span class="tl__date">May 2024 — Present</span>
+              </div>
+              <p class="tl__org">Primus Global Technologies Pvt Ltd, Bengaluru · Client: Société Générale</p>
+              <ul class="tl__points">
+                <li>Developed and maintained enterprise-grade, full-stack applications using .NET 10, Python, SQL and Angular/React.js.</li>
+                <li>Led end-to-end development of a greenfield application — from requirement gathering and architecture design to deployment and production support.</li>
+                <li>Ensured adherence to coding standards, design principles and engineering best practices across the development lifecycle.</li>
+                <li>Deployed applications using Azure App Services, Functions and containerised architectures for cloud-native solutions.</li>
+                <li>Automated deployment and operational processes using Azure DevOps, Docker and CI/CD pipelines, reducing manual effort and release time.</li>
+                <li>Implemented AI-powered document processing and data-extraction workflows to improve operational efficiency and data accuracy.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl__dot"></div>
+            <div class="tl__body">
+              <div class="tl__top">
+                <h3>Full Stack Developer</h3>
+                <span class="tl__date">May 2023 — May 2024</span>
+              </div>
+              <p class="tl__org">Harman Connected Services, Bengaluru</p>
+              <ul class="tl__points">
+                <li>Developed responsive, dynamic user interfaces using ASP.NET MVC, Blazor, Angular, React.js and jQuery.</li>
+                <li>Built backend APIs using ASP.NET Core Web API and C#, and managed SQL Server databases with stored procedures, views and functions.</li>
+                <li>Designed and implemented scalable microservices-based solutions, improving maintainability and deployment efficiency.</li>
+                <li>Built a reusable C# data-migration utility for importing CSV and Excel files, streamlining large-scale data onboarding.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl__dot"></div>
+            <div class="tl__body">
+              <div class="tl__top">
+                <h3>Junior Software Developer</h3>
+                <span class="tl__date">Nov 2019 — Apr 2023</span>
+              </div>
+              <p class="tl__org">Sentiacare Pvt Ltd, Bangalore</p>
+              <ul class="tl__points">
+                <li>Built full-stack healthcare web applications for state-level government projects using ASP.NET Core, Angular (7.8), React.js (16) and SQL Server.</li>
+                <li>Designed and developed RESTful APIs and backend services in C# to support patient management and real-time data operations.</li>
+                <li>Built cross-platform mobile apps with React Native and Java, enabling real-time data access and boosting adoption in rural health centres.</li>
+                <li>Created data-visualisation modules with charts, data grids and export-to-Excel/PDF functionality for medical reporting.</li>
+                <li>Integrated Google APIs for voice-enabled features and nearby-hospital search, improving accessibility for healthcare workers.</li>
+                <li>Deployed applications on Linux-based environments using PuTTY, FileZilla and shell scripting for manual server management.</li>
+                <li>Collaborated within Agile teams using GitHub, Bitbucket and Jira for version control, task management and sprint delivery.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section section--alt">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">04</span>
+          <h2>Selected Work</h2>
+        </header>
+        <div class="projects">
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">Banking · Greenfield</div>
+            <h3>Enterprise Platform — Société Générale</h3>
+            <p>Led end-to-end development of a greenfield enterprise application on .NET 10 and Angular/React — from architecture design through production support.</p>
+            <ul class="pcard__meta">
+              <li>.NET 10</li><li>SQL</li><li>Angular</li><li>React.js</li><li>Azure</li>
+            </ul>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">AI · Automation</div>
+            <h3>AI-Powered Document Processing</h3>
+            <p>Built AI-driven document processing and data-extraction workflows using Azure OpenAI and LLMs to improve operational efficiency and accuracy.</p>
+            <ul class="pcard__meta">
+              <li>Azure OpenAI</li><li>LLM</li><li>NLP</li>
+            </ul>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">Cloud · Architecture</div>
+            <h3>Microservices Migration</h3>
+            <p>Designed and implemented a scalable microservices-based architecture at Harman Connected Services, improving maintainability and deployment speed.</p>
+            <ul class="pcard__meta">
+              <li>Microservices</li><li>ASP.NET Core</li><li>Docker</li>
+            </ul>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">Tooling · Data</div>
+            <h3>C# Data Migration Utility</h3>
+            <p>Built a reusable utility for importing large-scale CSV and Excel datasets, streamlining data onboarding across projects.</p>
+            <ul class="pcard__meta">
+              <li>C#</li><li>Excel/CSV</li><li>Automation</li>
+            </ul>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">Healthcare · Government</div>
+            <h3>Patient Management Platform</h3>
+            <p>Built full-stack healthcare web applications for state-level government projects, with RESTful APIs supporting real-time patient data operations.</p>
+            <ul class="pcard__meta">
+              <li>ASP.NET Core</li><li>Angular</li><li>SQL Server</li>
+            </ul>
+          </article>
+
+          <article class="pcard reveal">
+            <div class="pcard__tag">Mobile · Healthcare</div>
+            <h3>Cross-Platform Healthcare App</h3>
+            <p>Built React Native and Java mobile apps to bring real-time data access to rural health centres, boosting healthcare worker adoption.</p>
+            <ul class="pcard__meta">
+              <li>React Native</li><li>Java</li><li>Google APIs</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION + FOCUS ============ -->
+    <section id="education" class="section">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">05</span>
+          <h2>Education &amp; Focus Areas</h2>
+        </header>
+        <div class="edu">
+          <article class="edu__card reveal">
+            <span class="edu__kind">Degree</span>
+            <h3>B.Sc. Computer Science</h3>
+            <p class="edu__org">Dhenkanal Autonomous College, Dhenkanal</p>
+            <p class="edu__date">Graduated 2019</p>
+          </article>
+          <article class="edu__card reveal">
+            <span class="edu__kind">Specialisation</span>
+            <h3>Cloud-Native &amp; Microservices Architecture</h3>
+            <p class="edu__note">6+ years applying DSA, OOP, SOLID principles and design patterns to scalable system design across enterprise and government projects.</p>
+          </article>
+          <article class="edu__card reveal">
+            <span class="edu__kind">Languages</span>
+            <h3>Multilingual</h3>
+            <ul class="chips chips--tight">
+              <li>English</li><li>Hindi</li><li>Oriya</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section--alt">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <span class="section__idx">06</span>
+          <h2>Get in touch</h2>
+        </header>
+        <div class="contact">
+          <p class="contact__lead reveal">Open to Senior Software Engineer &amp; Full-Stack Developer roles. Let's talk about your next project.</p>
+          <div class="contact__grid reveal">
+            <a class="contact__item" href="mailto:subhasispattanaik281@gmail.com">
+              <span class="contact__ic">✉</span>
+              <span><small>Email</small>subhasispattanaik281@gmail.com</span>
+            </a>
+            <a class="contact__item" href="tel:+917008577849">
+              <span class="contact__ic">☎</span>
+              <span><small>Phone</small>+91 70085 77849</span>
+            </a>
+            <a class="contact__item" href="https://www.linkedin.com/in/subhasis-pattanaik-044503b7/" target="_blank" rel="noopener">
+              <span class="contact__ic">in</span>
+              <span><small>LinkedIn</small>subhasis-pattanaik</span>
+            </a>
+            <div class="contact__item contact__item--static">
+              <span class="contact__ic">◎</span>
+              <span><small>Location</small>Bangalore, India</span>
+            </div>
+          </div>
+          <div class="contact__cta reveal">
+            <a class="btn btn--primary" href="mailto:subhasispattanaik281@gmail.com">Say hello</a>
+            <a class="btn btn--ghost" href="assets/Subhasis_Pattanaik_Resume.pdf" download>Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="year"></span> Subhasis Pattanaik</span>
+      <span class="footer__mono">Designed &amp; built as a software engineering portfolio</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
